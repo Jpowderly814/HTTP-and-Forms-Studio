@@ -12,9 +12,9 @@
                 "DogPile": "https://www.dogpile.com/"
             };
             let form = document.getElementById("searchForm");
-console.log(form);
+            //console.log(form);
             let engineSelector = document.querySelector("[name=engine]:checked");
-            console.log(engineSelector);
+            //console.log(engineSelector);
             let selectedEngine = engineSelector.value;
             let selectedEngineURL = searchEngineObject[selectedEngine];
             form.setAttribute("action", selectedEngineURL);
